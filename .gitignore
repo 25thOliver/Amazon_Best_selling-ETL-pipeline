@@ -1,0 +1,19 @@
+# Ignore CSVs and large data files
+*.csv
+*.tsv
+*.parquet
+*.json
+
+# Ignore Python cache & virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.abs/
+*.sqlite3
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+amazon_bestsellers.csv
